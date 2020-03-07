@@ -1,0 +1,89 @@
+<div class="inStoreNav">
+  <div class="inStoreNavActions">
+    <div class="inStoreNavActionsPanel">
+      <h1>InStore Navigation</h1>
+      <div class="actionButtons">
+        <button  onclick="startNavigation()">Start Point</button>
+        <button onclick="endNavigation()">Navigate</button>
+        <button onclick="clearGraph()">Clear</button>
+      </div>
+      <button class="searchButton" onclick="clickHandle();">Search Path</button>
+      <div class="categories">
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Coldrinks & Chips"><label>Coldrinks & Chips</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Flours"><label>Flours</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Spices"><label>Spices</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Salt, Sugar, Jaggery"><label>Salt, Sugar, Jaggery</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Edible Oils"><label>Edible Oils</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Apparel"><label>Apparel</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Electronics"><label>Electronics</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Beverages"><label>Beverages</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Ladies Footwear"><label>Ladies Footwear</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Gents Footwear"><label>Gents Footwear</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Stationary"><label>Stationary</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Sporting Goods, Toys"><label>Sporting Goods, Toys</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Cosmetics"><label>Cosmetics</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Personal Care"><label>Personal Care</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Kitchen"><label>Kitchen</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Home Utensils"><label>Home Utensils</label>
+        </div>
+        <!-- <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Checkout"><label>Checkout</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Exit"><label>Exit</label>
+        </div> -->
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Bakery & Dairy"><label>Bakery & Dairy</label>
+        </div>
+        <div class="checkBoxRow">
+          <input type="checkbox" name="acs" value="Courtesy Desk"><label>Courtesy Desk</label>
+        </div>
+      </div>
+      <div id="count"></div>
+      <div class="bottomButtons">
+        <button class="deleteButton" onclick="removeNodes()">x</button>
+        <button class="deleteButton"  onclick="exportMapdata()">=></button>
+      </div>
+      
+     
+    </div>
+
+  </div>
+  <div class="inStoreNavlayout">
+    <div class="inStoreNavlayoutPanel">
+      <div id="cy">
+      </div>
+    </div>
+  </div>
+</div>
